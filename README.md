@@ -11,10 +11,10 @@ File file = new File(...);
 
 // writing and transforming to object
 String text = gson.toJson(yourobject);
-EngineStorageAPI.write(file,text);
+EngineStorage.write(file,text);
 
 // reading and getting object from string, using gson
-String encode = EngineStorageAPI.read(file);
+String encode = EngineStorage.read(file);
 Object ob = gson.fromJson(encode,Object.class);
 
 //
