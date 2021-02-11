@@ -3,7 +3,7 @@ import com.google.gson.Gson;
 import java.io.*;
 import java.nio.charset.StandardCharsets;
 
-public class EngineStorageAPI {
+public class EngineStorage {
 
     public static final Gson gson = new Gson();
     
