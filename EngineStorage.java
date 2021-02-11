@@ -35,7 +35,7 @@ public class EngineStorage {
      * @param text Text we want to write.
      */
 
-    public static void write(File file, String text) throws IOException {
+    public static void write(File file, String text){
         writeFile(file, text.getBytes(StandardCharsets.UTF_8), false);
     }
 
